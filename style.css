@@ -5,6 +5,7 @@
 
   .twitch .twitch-video {
     width: 75%;
+	height: auto;
     padding-top: 42.1875%;
   }
 
