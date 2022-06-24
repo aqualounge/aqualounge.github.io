@@ -4,12 +4,15 @@
 	flex-direction: row;
 	justify-content: center;
 	height: 50%;
+	fill: red;
 }
 
 #flex2{
+	height: 100%;
 	width: 67%;
 }
 
 #flex1{
+	height: 100%;
 	width: 33%;
 }
