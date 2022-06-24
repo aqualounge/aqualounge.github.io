@@ -183,7 +183,7 @@ body {
 body {
     padding: env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);
 }
-/*
+
 .wrapper {
     width: 100%;
     max-width: 990px;
@@ -199,7 +199,7 @@ body {
     content: "";
     display: block;
 }
-*/
+
 
 .row {
     width: 100%;
