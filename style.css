@@ -1,4 +1,4 @@
-body,
+/*body,
 h1,
 h2,
 h3,
@@ -168,6 +168,8 @@ small {
     color: #828282;
     font-style: italic;
 }
+
+*/
 html {
     background: #ea0011;
     border-top: 5px solid #79b2c8;
