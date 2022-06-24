@@ -169,16 +169,17 @@ small {
     font-style: italic;
 }
 
-*/
+
 html {
     background: #ea0011;
     border-top: 5px solid #79b2c8;
     border-bottom: 5px solid #79b2c8;
-}
+}*/
 html,
 body {
     min-height: 100%;
 }
+/*
 body {
     border-top: 5px solid #ea0011;
     border-bottom: 5px solid #ea0011;
@@ -198,6 +199,7 @@ body {
     content: "";
     display: block;
 }
+*/
 .row {
     width: 100%;
     clear: both;
@@ -211,6 +213,7 @@ body {
 .cell .cell {
     padding: 0;
 }
+/*
 .cell-centre {
     margin-left: auto;
     margin-right: auto;
@@ -282,6 +285,7 @@ body {
 .cell-offset-11 {
     margin-left: 91.6666666667%;
 }
+*/
 .cell-12 {
     width: 100%;
 }
