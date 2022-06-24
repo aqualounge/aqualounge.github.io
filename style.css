@@ -1,18 +1,7 @@
-.flex-container{
-  height: 300px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.box{
+    float:left;
+    margin-right:20px;
 }
-
-#flex2{
-	display: flex;
-	height: 100%;
-	width: 67%;
-}
-
-#flex1{
-	display: flex;
-	height: 100%;
-	width: 33%;
+.clear{
+    clear:both;
 }
