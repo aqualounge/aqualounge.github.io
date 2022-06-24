@@ -1,4 +1,13 @@
 @media screen and (min-width: 850px) {
+	
+.cell{padding:0 15px;float:left;display:block;margin:0}
+
+.cell-12{width:100%}
+
+.row {
+	width:100%;clear:both
+	}
+	
   .twitch {
     position: relative;
   }
