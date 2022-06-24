@@ -1,9 +1,8 @@
 .flex-container{
-  height: 50%;
-  width: 90%;
+  height: 300px;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
 }
 
 #flex2{
