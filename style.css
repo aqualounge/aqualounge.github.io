@@ -293,6 +293,8 @@ body {
 .cell-offset-12 {
     margin-left: 100%;
 }
+
+/*
 @media screen and (min-width: 700px) {
     .cell-med-1 {
         width: 8.3333333333%;
@@ -1090,6 +1092,9 @@ body {
     border: none;
     color: #787878;
 }
+*/
+
+
 .twitch {
     position: relative;
 }
