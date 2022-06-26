@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'fStop';
-    src: url('./docs/assets/fStop.TTF') format('truetype');
+    src: url('/docs/assets/fStop.TTF') format('truetype');
 }
 
-
+@import url(./docs/assets/fStop.TTF);
 
 h1{
 	margin:0;
-    padding:0;
+    padding:8px;
 	text-align: center;
 	font-family: fStop;
 	color: white;
-	font-size: 6rem;
+	font-size: 6vw;
 	line-height: 1em;
 	overflow: hidden;
 	text-shadow: .25rem .25rem #5a80ad;
@@ -24,7 +24,7 @@ h1{
 
 h3{
 	margin:0;
-    padding:0;
+    padding:8px;
 	text-align: center;
 	font-family: fStop;
 	color: white;
