@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'fStop';
-    src: url('docs/assets/fStop.ttf') format('truetype');
+    src: url('./docs/assets/fStop.ttf') format('truetype');
     font-style: normal;
 }
 
