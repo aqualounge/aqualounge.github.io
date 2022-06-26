@@ -1,4 +1,9 @@
-@import url(docs/assets/fStop.woff2);
+@font-face {
+    font-family: 'fStop';
+    src: url('docs/assets/fStop.ttf') format('truetype');
+    font-style: normal;
+}
+
 
 
 h1{
