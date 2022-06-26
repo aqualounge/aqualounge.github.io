@@ -1,3 +1,45 @@
+@import url(fStop.TTF);
+
+
+h1{
+	margin:0;
+    padding:0;
+	text-align: center;
+	font-family: fStop;
+	color: white;
+	font-size: 6rem;
+	line-height: 1em;
+	overflow: hidden;
+	text-shadow: .25rem .25rem #5a80ad;
+	  transform: scale(1, .825);
+	-webkit-transform: scale(1, .666); /* Safari and Chrome */
+	-moz-transform: scale(1, .666); /* Firefox */
+	-ms-transform: scale(1, .666); /* IE 9+ */
+	-o-transform: scale(1, .666); /* Opera */
+}
+
+h3{
+	margin:0;
+    padding:0;
+	text-align: center;
+	font-family: fStop;
+	color: white;
+	font-size: 3rem;
+	line-height: 1em;
+	overflow: hidden;
+	text-shadow: .25rem .25rem #5a80ad;
+	  transform: scale(1, .825);
+	-webkit-transform: scale(1, .666); /* Safari and Chrome */
+	-moz-transform: scale(1, .666); /* Firefox */
+	-ms-transform: scale(1, .666); /* IE 9+ */
+	-o-transform: scale(1, .666); /* Opera */
+}
+
+html {
+  background-image: url(poolwash.jpg);
+  background-repeat: repeat; 
+}
+
 html,
 body {
     min-height: 100%;
@@ -10,7 +52,7 @@ body {
 .wrapper {
     width: 100%;
     max-width: 990px;
-    padding: 0 15px;
+    padding: 15px;
     margin: 0 auto;
 }
 
@@ -29,8 +71,7 @@ body {
     clear: both;
 }
 .cell {
-    padding: 0 15px;
-    float: left;
+    padding: 15px;
     display: block;
     margin: 0;
 }
