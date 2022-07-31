@@ -6,7 +6,7 @@
 @import url(./docs/assets/fStop.TTF);
 
 @font-face {
-    font-family: 'Kanit-Regular';
+    font-family: 'Kanit';
     src: url('./docs/assets/Kanit-Regular.TTF') format('truetype');
 }
 
@@ -121,7 +121,7 @@ p{
 	margin: auto;
 	width: 70%;
 		color: rgba(7,66,110,1);
-	font-family: Kanit-Regular;
+	font-family: Kanit;
 }
 
 html {
@@ -278,7 +278,7 @@ body {
 	text-align: center;
 	font-size: 24px;
 	color: rgba(7,66,110,1);
-	font-family: Kanit-Regular;
+	font-family: Kanit;
 }
 
 .flex-video-grid{
