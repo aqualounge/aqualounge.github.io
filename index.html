@@ -1,69 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+	<head>
+		<title>aqualounge</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<!-- favicon -->
+		<link href='/favicon.png' rel='icon' type='image/png'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
 
-	<title>aqualounge</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<body onload="setColor()">
+		<div class="page wrapper">
+			<header class="blog-header header row">
+				<h1>aqualounge</h1>
+				<br></br>
+				<nav>
+				</nav>
+			</header>
 
-  <!-- favicon -->
-  <link href='/favicon.png' rel='icon' type='image/png'>
-
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-  
-</head>
-
-  <body>
-
-    <div class="page wrapper">
-      <header class="blog-header header row">
-<h1>aqualounge</h1>
-<br></br>
-    <nav>
-</nav>
-
-</header>
-
-
-      <main class="page-content">
-
-
-<div class="row">
-  <div class="cell cell-12 twitch">
-    <div class="twitch-video">
-      <iframe
-        src="https://player.twitch.tv/?channel=aqualounge_tv&parent=www.aqualounge.tv&autoplay=false"
-        frameborder="0"
-        scrolling="no"
-        allowfullscreen="true"
-        height="100%"
-        width="100%">
-      </iframe>
-    </div>
-    <div class="twitch-chat">
-      <iframe
-        frameborder="0"
-        scrolling="no"
-        src="https://www.twitch.tv/embed/aqualounge_tv/chat?parent=www.aqualounge.tv"
-        height="100%"
-        width="100%">
-      </iframe>
-    </div>
-  </div>
+			<main>
+				<div class="row">
+					<div class="cell twitch">
+						<div class="twitch-video">
+							<iframe
+								src="https://player.twitch.tv/?channel=aqualounge_tv&parent=www.aqualounge.tv&autoplay=false"
+								frameborder="0"
+								scrolling="no"
+								allowfullscreen="true"
+								height="100%"
+								width="100%">
+							</iframe>
+						</div>
+						<div class="twitch-chat">
+							<iframe
+								frameborder="0"
+								scrolling="no"
+								src="https://www.twitch.tv/embed/aqualounge_tv/chat?parent=www.aqualounge.tv"
+								height="100%"
+								width="100%">
+							</iframe>
+						</div>
+					</div>
+				</div>
+				
+<!-- 				<div class="meter orange nostripes">
+	<span style="width: 33.3%"></span>
 </div>
+ -->
+				<br></br>
+				
+				<div class="panelbuttonrow">
+					<h3>
+						<span class="panelbutton" id="default" onclick="showTab('sec1', 'panel', this)">Donate</span> 
+						|
+						<span class="panelbutton" onclick="showTab('sec2', 'panel', this)">Surf Shop</span>
+						|
+						<span class="panelbutton" onclick="showTab('sec3', 'panel', this)">VODs</span>
+						|
+						<span class="panelbutton" id="extraspacing" onclick="showTab('sec4', 'panel', this)">Mailing List</span>
+					</h3>
+				</div>
 
-<br></br>
-<br></br>
-<a href="https://aqualounge.bigcartel.com"><img src="docs/assets/shop.png" alt="aqualounge surf shop" style="width: 50%; margin-left: auto;
-  margin-right: auto; display: block;"></a>
-<br></br>
-<h3>more coming soon</h3>
-<br></br>
+				<br></br>
 
+				<div class="panel" id="sec1">
+					<iframe id='kofiframe' src='https://ko-fi.com/aqualounge/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;' height='600' title='aqualounge'></iframe>
+				</div>
 
-      </main>
-    </div>
-  </body>
+				<div class="panel" id="sec2">
+ 					<a href="https://aqualounge.bigcartel.com"><img src="docs/assets/shop.png" alt="aqualounge surf shop" style="width: 64vmin; margin-left: auto;
+					  margin-right: auto; display: block;"></a>
+					<div class="flex-image-grid">
+						<figure class="flex-image-grid-container"><a href="https://aqualounge.bigcartel.com/product/tidal-triptych" target="_blank"><img src="docs/assets/triptych_tee.png" alt="Tidal Tryptich tee ($26.99)" width="100%" height="100%"></a><figcaption>Tidal Tryptich tee ($26.99)</figcaption></figure>
+						<figure class="flex-image-grid-container"><a href="https://aqualounge.bigcartel.com/product/tidal-triptych-tank-top" target="_blank"><img src="docs/assets/triptych_tank.png" alt="Tidal Tryptich tank ($26.99)" width="100%" height="100%"></a><figcaption>Tidal Tryptich tank ($26.99)</figcaption></figure>
+						<figure class="flex-image-grid-container"><a href="https://aqualounge.bigcartel.com/product/sound-of-the-summer-eco" target="_blank"><img src="docs/assets/summer_tee.png" alt="Sound of the Summer tee ($26.99)" width="100%" height="100%"></a><figcaption>Sound of the Summer tee ($26.99)</figcaption></figure>  
+						<figure class="flex-image-grid-container"><a href="https://aqualounge.bigcartel.com/product/aqua-obscura-two-sided-logo-on-rear" target="_blank"><img src="docs/assets/obscura.png" alt="Aqua Obscura two-sided tee ($30.99)" width="100%" height="100%"></a><figcaption>Aqua Obscura two-sided tee ($30.99)</figcaption></figure>
+						<figure class="flex-image-grid-container"><a href="https://aqualounge.bigcartel.com/product/sound-of-the-summer-sticker" target="_blank"><img src="docs/assets/sticker.png" alt="Sound of the Summer sticker ($3.99)" width="100%" height="100%"></a><figcaption>Sound of the Summer sticker ($3.99)</figcaption></figure>
+					</div>
+				</div>
 
+				<div class="panel" id="sec3">
+					<div class="flex-video-grid">
+						<div class="video-container">
+							<iframe src="https://www.youtube.com/embed/ba9bFbYGqb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="video-container">
+							<iframe src="https://www.youtube.com/embed/gDSDICYZI-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel" id="sec4">
+				<!-- Begin Mailchimp Signup Form -->
+					<div id="mc_embed_signup">
+						<form action="https://aqualounge.us14.list-manage.com/subscribe/post?u=920ac1374c43519063bdb8f8f&amp;id=b74f8fd574" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
+								<h2>don't miss a thing - join the aqualounge.tv mailing list.</h2>
+								<div class="mc-field-group">
+									<label for="mce-EMAIL">Email Address</label>
+									<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-FNAME">First Name (totally optional) </label>
+									<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-LNAME">Last Name (also totally optional) </label>
+									<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+								</div>
+								<div class="mc-field-group input-group">
+									<br></br>
+									<strong>What can we do for you? </strong>
+									<ul>
+										<li><input type="checkbox" value="1" name="group[46082][1]" id="mce-group[46082]-46082-0"><label for="mce-group[46082]-46082-0">Notify me when a new stream is scheduled</label></li>
+										<li><input type="checkbox" value="2" name="group[46082][2]" id="mce-group[46082]-46082-1"><label for="mce-group[46082]-46082-1">Notify me when new merch drops</label></li>
+										<li><input type="checkbox" value="4" name="group[46082][4]" id="mce-group[46082]-46082-2"><label for="mce-group[46082]-46082-2">Give me general Aqualounge news/reminders</label></li>
+									</ul>
+								</div>
+								<div id="mce-responses" class="clear foot">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_920ac1374c43519063bdb8f8f_b74f8fd574" tabindex="-1" value=""></div>
+								<div class="optionalParent">
+									<div class="clear foot">
+										<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				<!--End mc_embed_signup-->
+				</div>
+			</main> 
+		</div>
+	</body>
 </html>
+
+<script>
+function showTab(name, classnm, button)
+{
+//use "add class active siblings remove class active" instead?
+	let allPanels = document.getElementsByClassName(classnm);
+	  
+	for (let i = 0; i < allPanels.length; i++) 
+	{
+		allPanels[i].style.display = "none";
+	} 
+
+	let panel= document.getElementById(name);
+	panel.style.display = "block";
+	
+	let allButtons = document.getElementsByClassName('panelbutton');
+	
+	for(let i= 0; i < allButtons.length; i++)
+	{
+		allButtons[i].style.color= "rgba(255,255,255,1)";
+	}
+	
+		
+	button.style.color= "rgba(188, 240, 237, 1)";
+}
+
+function setColor()
+{
+	let button= document.getElementById('default');
+	button.style.color= "rgba(188, 240, 237, 1)";
+}
+</script>
