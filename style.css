@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'fStop';
-    src: url('docs/assets/fStop.TTF') format('truetype');
+    src: url('./docs/assets/fStop.TTF') format('truetype');
 }
 
 @import url(./docs/assets/fStop.TTF);
 
 @font-face {
     font-family: 'Kanit-Regular';
-    src: url('docs/assets/Kanit-Regular.TTF') format('truetype');
+    src: url('./docs/assets/Kanit-Regular.TTF') format('truetype');
 }
 
 @import url(./docs/assets/Kanit-Regular.TTF);
