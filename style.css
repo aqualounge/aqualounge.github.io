@@ -1,16 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@import url(./docs/assets/fStop.TTF);
+
 @font-face {
     font-family: 'fStop';
     src: url('./docs/assets/fStop.TTF') format('truetype');
 }
-
-@import url(./docs/assets/fStop.TTF);
-
-@font-face {
-    font-family: 'Kanit';
-    src: url('./docs/assets/Kanit-Regular.TTF') format('truetype');
-}
-
-@import url(./docs/assets/Kanit-Regular.TTF);
 
 h1{
 	margin:0;
