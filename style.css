@@ -12,9 +12,10 @@ h1{
 	text-align: center;
 	font-family: fStop;
 	color: white;
-	font-size: 6.5vmax;
+	font-size: 11.5vmin;
 	line-height: 1em;
 	overflow: hidden;
+	word-wrap: normal;
 	text-shadow: .25rem .25rem #5a80ad;
 	  transform: scale(1, .825);
 	-webkit-transform: scale(1, .666); /* Safari and Chrome */
@@ -38,7 +39,26 @@ h3{
 	font-size: 8vh;
 	line-height: 1em;
 	overflow: hidden;
+	word-wrap: break-word;
 	text-shadow: .25rem .25rem #5a80ad;
+	  transform: scale(1, .825);
+	-webkit-transform: scale(1, .666); /* Safari and Chrome */
+	-moz-transform: scale(1, .666); /* Firefox */
+	-ms-transform: scale(1, .666); /* IE 9+ */
+	-o-transform: scale(1, .666); /* Opera */
+}       
+
+h5{
+	margin:0;
+    padding:8px;
+	text-align: center;
+	font-family: Kanit;
+	color: white;
+	font-size: 3vh;
+	line-height: 1em;
+	overflow: hidden;
+	word-wrap: break-word;
+	text-shadow: .15rem .15rem #5a80ad;
 	  transform: scale(1, .825);
 	-webkit-transform: scale(1, .666); /* Safari and Chrome */
 	-moz-transform: scale(1, .666); /* Firefox */
